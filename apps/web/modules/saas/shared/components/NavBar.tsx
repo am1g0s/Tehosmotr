@@ -16,6 +16,7 @@ import {
 import { useTranslations } from "next-intl"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import React from 'react'
 import { OrganzationSelect } from "../../organizations/components/OrganizationSelect"
 
 export function NavBar() {
@@ -149,7 +150,7 @@ label: t("app.menu.aiChatbot"),
 					{menuItems.map((menuItem) => (
 						<li key={menuItem.href}>
 							<Link
-								href={menuItem.href}
+								href={menuItem.href ?? ""}
 								className={cn(
 									"flex items-center gap-2 whitespace-nowrap border-b-2 px-1 pb-3",
 									[
@@ -163,13 +164,12 @@ label: t("app.menu.aiChatbot"),
 									},
 								)}
 							>
-								<menuItem.icon
-									className={`size-4 shrink-0 ${
-										menuItem.isActive
-											? "text-primary"
-											: "opacity-50"
-									}`}
-								/>
+								{menuItem.icon && React.createElement(menuItem.icon, {
+									className: cn(
+										"size-4 shrink-0",
+										menuItem.isActive ? "text-primary" : "opacity-50"
+									)
+								})}
 								<span>{menuItem.label}</span>
 							</Link>
 						</li>
