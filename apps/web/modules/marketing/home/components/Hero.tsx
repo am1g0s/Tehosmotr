@@ -2,7 +2,8 @@ import PhoneParallax from "@marketing/home/components/PhoneParallax"
 import { Button } from "@ui/components/button"
 import { ArrowRightIcon } from "lucide-react"
 import Image from "next/image"
-import appPreview from "../../../../public/images/hero-image.png"
+import heroImageDark from "../../../../public/images/hero-image-dark.png"
+import heroImage from "../../../../public/images/hero-image.png"
 
 export function Hero() {
 	return (
@@ -39,9 +40,15 @@ export function Hero() {
 					<div className="relative mx-auto flex h-[520px] w-full max-w-[320px] items-center justify-center">
 						<PhoneParallax>
 							<Image
-								src={appPreview}
+								src={heroImage}
 								alt="Предпросмотр приложения GeoPhoto"
-								className="pointer-events-none select-none"
+								className="pointer-events-none select-none block dark:hidden"
+								priority
+							/>
+							<Image
+								src={heroImageDark}
+								alt="Предпросмотр приложения GeoPhoto (тёмная тема)"
+								className="pointer-events-none select-none hidden dark:block"
 								priority
 							/>
 						</PhoneParallax>
