@@ -13,23 +13,23 @@ importers:
   .:
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
       dotenv-cli:
-        specifier: ^8.0.0
-        version: 8.0.0
+        specifier: ^10.0.0
+        version: 10.0.0
       turbo:
         specifier: ^2.5.3
         version: 2.5.6
       typescript:
-        specifier: 5.8.3
-        version: 5.8.3
+        specifier: 5.9.2
+        version: 5.9.2
 
   apps/web:
     dependencies:
@@ -38,7 +38,7 @@ importers:
         version: 3.437.0
       '@fumadocs/content-collections':
         specifier: ^1.1.8
-        version: 1.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(@content-collections/mdx@0.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(fumadocs-core@15.7.11(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 1.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(@content-collections/mdx@0.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(fumadocs-core@15.7.11(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@hookform/resolvers':
         specifier: ^5.0.1
         version: 5.2.2(react-hook-form@7.62.0(react@19.1.0))
@@ -149,7 +149,7 @@ importers:
         version: 15.7.11(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       fumadocs-ui:
         specifier: ^15.2.12
-        version: 15.7.11(@types/react-dom@19.0.0)(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5)
+        version: 15.7.11(@types/react-dom@19.0.0)(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.13)
       geist:
         specifier: ^1.4.1
         version: 1.5.1(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
@@ -173,7 +173,7 @@ importers:
         version: 15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-intl:
         specifier: 4.1.0
-        version: 4.1.0(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 4.1.0(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(typescript@5.9.2)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -239,17 +239,17 @@ importers:
         version: 3.25.76
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@content-collections/core':
-        specifier: ^0.8.2
-        version: 0.8.2(typescript@5.8.3)
+        specifier: ^0.11.1
+        version: 0.11.1(typescript@5.9.2)
       '@content-collections/mdx':
         specifier: ^0.2.2
-        version: 0.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 0.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@content-collections/next':
         specifier: ^0.2.6
-        version: 0.2.7(@content-collections/core@0.8.2(typescript@5.8.3))(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 0.2.7(@content-collections/core@0.11.1(typescript@5.9.2))(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@mdx-js/mdx':
         specifier: ^3.1.0
         version: 3.1.1
@@ -275,8 +275,8 @@ importers:
         specifier: ^2.0.13
         version: 2.0.13
       '@types/node':
-        specifier: 22.15.14
-        version: 22.15.14
+        specifier: 24.5.0
+        version: 24.5.0
       '@types/nprogress':
         specifier: ^0.2.3
         version: 0.2.3
@@ -291,13 +291,13 @@ importers:
         version: 10.0.0
       autoprefixer:
         specifier: 10.4.21
-        version: 10.4.21(postcss@8.5.3)
+        version: 10.4.21(postcss@8.5.6)
       dotenv:
-        specifier: ^16.5.0
-        version: 16.6.1
+        specifier: ^17.2.2
+        version: 17.2.2
       dotenv-cli:
-        specifier: ^8.0.0
-        version: 8.0.0
+        specifier: ^10.0.0
+        version: 10.0.0
       markdown-toc:
         specifier: ^1.2.0
         version: 1.2.0
@@ -305,8 +305,8 @@ importers:
         specifier: ^0.3.1
         version: 0.3.1
       postcss:
-        specifier: 8.5.3
-        version: 8.5.3
+        specifier: 8.5.6
+        version: 8.5.6
       rehype-img-size:
         specifier: ^1.0.1
         version: 1.0.1
@@ -314,8 +314,8 @@ importers:
         specifier: ^2.0.11
         version: 2.1.0
       tailwindcss:
-        specifier: 4.1.5
-        version: 4.1.5
+        specifier: 4.1.13
+        version: 4.1.13
 
   config:
     devDependencies:
@@ -342,8 +342,8 @@ importers:
         version: 4.104.0(encoding@0.1.13)(zod@3.25.76)
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
@@ -351,8 +351,8 @@ importers:
         specifier: 19.0.0
         version: 19.0.0
       typescript:
-        specifier: 5.8.3
-        version: 5.8.3
+        specifier: 5.9.2
+        version: 5.9.2
 
   packages/api:
     dependencies:
@@ -415,8 +415,8 @@ importers:
         version: 3.25.76
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
@@ -427,11 +427,11 @@ importers:
         specifier: ^0.1.13
         version: 0.1.13
       prisma:
-        specifier: ^6.7.0
-        version: 6.16.1(typescript@5.8.3)
+        specifier: ^6.16.2
+        version: 6.16.2(typescript@5.9.2)
       typescript:
-        specifier: 5.8.3
-        version: 5.8.3
+        specifier: 5.9.2
+        version: 5.9.2
 
   packages/auth:
     dependencies:
@@ -467,14 +467,14 @@ importers:
         version: 15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
 
   packages/database:
     dependencies:
@@ -483,16 +483,16 @@ importers:
         version: 2.2.2
       '@prisma/client':
         specifier: ^6.7.0
-        version: 6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3)
+        version: 6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
       '@repo/config':
         specifier: workspace:*
         version: link:../../config
       drizzle-orm:
         specifier: ^0.43.1
-        version: 0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.1(typescript@5.8.3))
+        version: 0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.2(typescript@5.9.2))
       drizzle-zod:
         specifier: ^0.7.1
-        version: 0.7.1(drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.1(typescript@5.8.3)))(zod@3.25.76)
+        version: 0.7.1(drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.2(typescript@5.9.2)))(zod@3.25.76)
       nanoid:
         specifier: ^5.1.2
         version: 5.1.5
@@ -504,29 +504,29 @@ importers:
         version: 3.25.76
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: 22.15.14
-        version: 22.15.14
+        specifier: 24.5.0
+        version: 24.5.0
       dotenv-cli:
-        specifier: ^8.0.0
-        version: 8.0.0
+        specifier: ^10.0.0
+        version: 10.0.0
       drizzle-kit:
         specifier: ^0.31.1
         version: 0.31.4
       prisma:
-        specifier: ^6.7.0
-        version: 6.16.1(typescript@5.8.3)
+        specifier: ^6.16.2
+        version: 6.16.2(typescript@5.9.2)
       prisma-json-types-generator:
-        specifier: ^3.3.1
-        version: 3.6.0(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3)
+        specifier: ^3.6.1
+        version: 3.6.1(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
       zod-prisma-types:
         specifier: ^3.2.4
-        version: 3.2.4(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(prisma@6.16.1(typescript@5.8.3))
+        version: 3.2.4(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(prisma@6.16.2(typescript@5.9.2))
 
   packages/i18n:
     dependencies:
@@ -538,14 +538,14 @@ importers:
         version: 4.3.1
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
 
   packages/logs:
     dependencies:
@@ -557,14 +557,14 @@ importers:
         version: 3.4.2
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
 
   packages/mail:
     dependencies:
@@ -585,7 +585,7 @@ importers:
         version: link:../logs
       next-intl:
         specifier: 4.1.0
-        version: 4.1.0(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 4.1.0(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(typescript@5.9.2)
       nodemailer:
         specifier: ^6.10.1
         version: 6.10.1
@@ -603,8 +603,8 @@ importers:
         version: 4.3.8(react@19.1.0)
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
@@ -612,8 +612,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4(tailwindcss@4.1.13)
       '@types/node':
-        specifier: 22.15.14
-        version: 22.15.14
+        specifier: 24.5.0
+        version: 24.5.0
       '@types/nodemailer':
         specifier: ^6.4.17
         version: 6.4.19
@@ -643,20 +643,20 @@ importers:
         version: 2.52.0
       stripe:
         specifier: ^18.1.0
-        version: 18.5.0(@types/node@22.15.14)
+        version: 18.5.0(@types/node@24.5.0)
       ufo:
         specifier: ^1.6.1
         version: 1.6.1
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
 
   packages/storage:
     dependencies:
@@ -674,26 +674,26 @@ importers:
         version: link:../logs
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
 
   packages/utils:
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
 
   tooling/scripts:
     dependencies:
@@ -711,14 +711,14 @@ importers:
         version: link:../../packages/utils
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../typescript
       '@types/node':
-        specifier: ^22.15.14
-        version: 22.15.14
+        specifier: ^24.5.0
+        version: 24.5.0
       nanoid:
         specifier: ^5.1.5
         version: 5.1.5
@@ -729,17 +729,17 @@ importers:
   tooling/tailwind:
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
       tailwindcss:
-        specifier: ^4.1.5
-        version: 4.1.5
+        specifier: ^4.1.13
+        version: 4.1.13
 
   tooling/typescript:
     devDependencies:
       '@biomejs/biome':
-        specifier: 1.9.4
-        version: 1.9.4
+        specifier: 2.2.4
+        version: 2.2.4
 
 packages:
 
@@ -1115,61 +1115,61 @@ packages:
   '@better-fetch/fetch@1.1.18':
     resolution: {integrity: sha512-rEFOE1MYIsBmoMJtQbl32PGHHXuG2hDxvEd7rUHE0vCBoFQVSDqaVs9hkZEtHCxRoY+CljXKFCOuJ8uxqw1LcA==}
 
-  '@biomejs/biome@1.9.4':
-    resolution: {integrity: sha512-1rkd7G70+o9KkTn5KLmDYXihGoTaIGO9PIIN2ZB7UJxFrWw04CZHPYiMRjYsaDvVV7hP1dYNRLxSANLaBFGpog==}
+  '@biomejs/biome@2.2.4':
+    resolution: {integrity: sha512-TBHU5bUy/Ok6m8c0y3pZiuO/BZoY/OcGxoLlrfQof5s8ISVwbVBdFINPQZyFfKwil8XibYWb7JMwnT8wT4WVPg==}
     engines: {node: '>=14.21.3'}
     hasBin: true
 
-  '@biomejs/cli-darwin-arm64@1.9.4':
-    resolution: {integrity: sha512-bFBsPWrNvkdKrNCYeAp+xo2HecOGPAy9WyNyB/jKnnedgzl4W4Hb9ZMzYNbf8dMCGmUdSavlYHiR01QaYR58cw==}
+  '@biomejs/cli-darwin-arm64@2.2.4':
+    resolution: {integrity: sha512-RJe2uiyaloN4hne4d2+qVj3d3gFJFbmrr5PYtkkjei1O9c+BjGXgpUPVbi8Pl8syumhzJjFsSIYkcLt2VlVLMA==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [darwin]
 
-  '@biomejs/cli-darwin-x64@1.9.4':
-    resolution: {integrity: sha512-ngYBh/+bEedqkSevPVhLP4QfVPCpb+4BBe2p7Xs32dBgs7rh9nY2AIYUL6BgLw1JVXV8GlpKmb/hNiuIxfPfZg==}
+  '@biomejs/cli-darwin-x64@2.2.4':
+    resolution: {integrity: sha512-cFsdB4ePanVWfTnPVaUX+yr8qV8ifxjBKMkZwN7gKb20qXPxd/PmwqUH8mY5wnM9+U0QwM76CxFyBRJhC9tQwg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [darwin]
 
-  '@biomejs/cli-linux-arm64-musl@1.9.4':
-    resolution: {integrity: sha512-v665Ct9WCRjGa8+kTr0CzApU0+XXtRgwmzIf1SeKSGAv+2scAlW6JR5PMFo6FzqqZ64Po79cKODKf3/AAmECqA==}
+  '@biomejs/cli-linux-arm64-musl@2.2.4':
+    resolution: {integrity: sha512-7TNPkMQEWfjvJDaZRSkDCPT/2r5ESFPKx+TEev+I2BXDGIjfCZk2+b88FOhnJNHtksbOZv8ZWnxrA5gyTYhSsQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
 
-  '@biomejs/cli-linux-arm64@1.9.4':
-    resolution: {integrity: sha512-fJIW0+LYujdjUgJJuwesP4EjIBl/N/TcOX3IvIHJQNsAqvV2CHIogsmA94BPG6jZATS4Hi+xv4SkBBQSt1N4/g==}
+  '@biomejs/cli-linux-arm64@2.2.4':
+    resolution: {integrity: sha512-M/Iz48p4NAzMXOuH+tsn5BvG/Jb07KOMTdSVwJpicmhN309BeEyRyQX+n1XDF0JVSlu28+hiTQ2L4rZPvu7nMw==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
 
-  '@biomejs/cli-linux-x64-musl@1.9.4':
-    resolution: {integrity: sha512-gEhi/jSBhZ2m6wjV530Yy8+fNqG8PAinM3oV7CyO+6c3CEh16Eizm21uHVsyVBEB6RIM8JHIl6AGYCv6Q6Q9Tg==}
+  '@biomejs/cli-linux-x64-musl@2.2.4':
+    resolution: {integrity: sha512-m41nFDS0ksXK2gwXL6W6yZTYPMH0LughqbsxInSKetoH6morVj43szqKx79Iudkp8WRT5SxSh7qVb8KCUiewGg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
-  '@biomejs/cli-linux-x64@1.9.4':
-    resolution: {integrity: sha512-lRCJv/Vi3Vlwmbd6K+oQ0KhLHMAysN8lXoCI7XeHlxaajk06u7G+UsFSO01NAs5iYuWKmVZjmiOzJ0OJmGsMwg==}
+  '@biomejs/cli-linux-x64@2.2.4':
+    resolution: {integrity: sha512-orr3nnf2Dpb2ssl6aihQtvcKtLySLta4E2UcXdp7+RTa7mfJjBgIsbS0B9GC8gVu0hjOu021aU8b3/I1tn+pVQ==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
 
-  '@biomejs/cli-win32-arm64@1.9.4':
-    resolution: {integrity: sha512-tlbhLk+WXZmgwoIKwHIHEBZUwxml7bRJgk0X2sPyNR3S93cdRq6XulAZRQJ17FYGGzWne0fgrXBKpl7l4M87Hg==}
+  '@biomejs/cli-win32-arm64@2.2.4':
+    resolution: {integrity: sha512-NXnfTeKHDFUWfxAefa57DiGmu9VyKi0cDqFpdI+1hJWQjGJhJutHPX0b5m+eXvTKOaf+brU+P0JrQAZMb5yYaQ==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [win32]
 
-  '@biomejs/cli-win32-x64@1.9.4':
-    resolution: {integrity: sha512-8Y5wMhVIPaWe6jw2H+KlEm4wP/f7EW3810ZLmDlrEEy5KvBsb9ECEfu/kMWD484ijfQ8+nIi0giMgu9g1UAuuA==}
+  '@biomejs/cli-win32-x64@2.2.4':
+    resolution: {integrity: sha512-3Y4V4zVRarVh/B/eSHczR4LYoSVyv3Dfuvm3cWs5w/HScccS0+Wt/lHOcDTRYeHjQmMYVC3rIRWqyN2EI52+zg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [win32]
 
-  '@content-collections/core@0.8.2':
-    resolution: {integrity: sha512-62yVC3ne47YJ1KeCw5nk0H/G/xGBagcoWyMpVyTaCnDJhoIoTvmqBrsc+78Zk8s2Ssnb0Eo1Q4w3ZHwgL88pjg==}
+  '@content-collections/core@0.11.1':
+    resolution: {integrity: sha512-4ZbjxOjaDAxnj7mIij1q1vxZgOJQkA20ThoNZ0CsnmhJmUp+IDqIRLUyDyZ+4ZAk+zQy6bKeOzWzyLg32vMgRQ==}
     peerDependencies:
       typescript: ^5.0.2
 
@@ -1982,88 +1982,6 @@ packages:
   '@paralleldrive/cuid2@2.2.2':
     resolution: {integrity: sha512-ZOBkgDwEdoYVlSeRbYYXs0S9MejQofiVYoTbKzy/6GQa39/q5tQU2IX46+shYnUkpEl3wc+J6wRlar7r2EK2xA==}
 
-  '@parcel/watcher-android-arm64@2.5.1':
-    resolution: {integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm64]
-    os: [android]
-
-  '@parcel/watcher-darwin-arm64@2.5.1':
-    resolution: {integrity: sha512-eAzPv5osDmZyBhou8PoF4i6RQXAfeKL9tjb3QzYuccXFMQU0ruIc/POh30ePnaOyD1UXdlKguHBmsTs53tVoPw==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm64]
-    os: [darwin]
-
-  '@parcel/watcher-darwin-x64@2.5.1':
-    resolution: {integrity: sha512-1ZXDthrnNmwv10A0/3AJNZ9JGlzrF82i3gNQcWOzd7nJ8aj+ILyW1MTxVk35Db0u91oD5Nlk9MBiujMlwmeXZg==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [x64]
-    os: [darwin]
-
-  '@parcel/watcher-freebsd-x64@2.5.1':
-    resolution: {integrity: sha512-SI4eljM7Flp9yPuKi8W0ird8TI/JK6CSxju3NojVI6BjHsTyK7zxA9urjVjEKJ5MBYC+bLmMcbAWlZ+rFkLpJQ==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [x64]
-    os: [freebsd]
-
-  '@parcel/watcher-linux-arm-glibc@2.5.1':
-    resolution: {integrity: sha512-RCdZlEyTs8geyBkkcnPWvtXLY44BCeZKmGYRtSgtwwnHR4dxfHRG3gR99XdMEdQ7KeiDdasJwwvNSF5jKtDwdA==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm]
-    os: [linux]
-
-  '@parcel/watcher-linux-arm-musl@2.5.1':
-    resolution: {integrity: sha512-6E+m/Mm1t1yhB8X412stiKFG3XykmgdIOqhjWj+VL8oHkKABfu/gjFj8DvLrYVHSBNC+/u5PeNrujiSQ1zwd1Q==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm]
-    os: [linux]
-
-  '@parcel/watcher-linux-arm64-glibc@2.5.1':
-    resolution: {integrity: sha512-LrGp+f02yU3BN9A+DGuY3v3bmnFUggAITBGriZHUREfNEzZh/GO06FF5u2kx8x+GBEUYfyTGamol4j3m9ANe8w==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm64]
-    os: [linux]
-
-  '@parcel/watcher-linux-arm64-musl@2.5.1':
-    resolution: {integrity: sha512-cFOjABi92pMYRXS7AcQv9/M1YuKRw8SZniCDw0ssQb/noPkRzA+HBDkwmyOJYp5wXcsTrhxO0zq1U11cK9jsFg==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm64]
-    os: [linux]
-
-  '@parcel/watcher-linux-x64-glibc@2.5.1':
-    resolution: {integrity: sha512-GcESn8NZySmfwlTsIur+49yDqSny2IhPeZfXunQi48DMugKeZ7uy1FX83pO0X22sHntJ4Ub+9k34XQCX+oHt2A==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [x64]
-    os: [linux]
-
-  '@parcel/watcher-linux-x64-musl@2.5.1':
-    resolution: {integrity: sha512-n0E2EQbatQ3bXhcH2D1XIAANAcTZkQICBPVaxMeaCVBtOpBZpWJuf7LwyWPSBDITb7In8mqQgJ7gH8CILCURXg==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [x64]
-    os: [linux]
-
-  '@parcel/watcher-win32-arm64@2.5.1':
-    resolution: {integrity: sha512-RFzklRvmc3PkjKjry3hLF9wD7ppR4AKcWNzH7kXR7GUe0Igb3Nz8fyPwtZCSquGrhU5HhUNDr/mKBqj7tqA2Vw==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [arm64]
-    os: [win32]
-
-  '@parcel/watcher-win32-ia32@2.5.1':
-    resolution: {integrity: sha512-c2KkcVN+NJmuA7CGlaGD1qJh1cLfDnQsHjE89E60vUEMlqduHGCdCLJCID5geFVM0dOtA3ZiIO8BoEQmzQVfpQ==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [ia32]
-    os: [win32]
-
-  '@parcel/watcher-win32-x64@2.5.1':
-    resolution: {integrity: sha512-9lHBdJITeNR++EvSQVUcaZoWupyHfXe1jZvGZ06O/5MflPcuPLtEphScIBL+AiCWBO46tDSHzWyD0uDmmZqsgA==}
-    engines: {node: '>= 10.0.0'}
-    cpu: [x64]
-    os: [win32]
-
-  '@parcel/watcher@2.5.1':
-    resolution: {integrity: sha512-dfUnCxiN9H4ap84DvD2ubjw+3vUNpstxa0TneY/Paat8a3R4uQZDLSvWjmznAY/DoahqTHl9V46HF/Zs3F29pg==}
-    engines: {node: '>= 10.0.0'}
-
   '@peculiar/asn1-android@2.5.0':
     resolution: {integrity: sha512-t8A83hgghWQkcneRsgGs2ebAlRe54ns88p7ouv8PW2tzF1nAW4yHcL4uZKrFpIU+uszIRzTkcCuie37gpkId0A==}
 
@@ -2106,32 +2024,44 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/config@6.16.1':
-    resolution: {integrity: sha512-sz3uxRPNL62QrJ0EYiujCFkIGZ3hg+9hgC1Ae1HjoYuj0BxCqHua4JNijYvYCrh9LlofZDZcRBX3tHBfLvAngA==}
+  '@prisma/config@6.16.2':
+    resolution: {integrity: sha512-mKXSUrcqXj0LXWPmJsK2s3p9PN+aoAbyMx7m5E1v1FufofR1ZpPoIArjjzOIm+bJRLLvYftoNYLx1tbHgF9/yg==}
 
   '@prisma/debug@6.16.1':
     resolution: {integrity: sha512-RWv/VisW5vJE4cDRTuAHeVedtGoItXTnhuLHsSlJ9202QKz60uiXWywBlVcqXVq8bFeIZoCoWH+R1duZJPwqLw==}
 
+  '@prisma/debug@6.16.2':
+    resolution: {integrity: sha512-bo4/gA/HVV6u8YK2uY6glhNsJ7r+k/i5iQ9ny/3q5bt9ijCj7WMPUwfTKPvtEgLP+/r26Z686ly11hhcLiQ8zA==}
+
   '@prisma/dmmf@6.16.1':
     resolution: {integrity: sha512-SpsNh7DGpmwRM0bqrs63yitkoqmbBicvrKZGzNr2e3b8xiVZhCg/rEnjCgCVvIDII327d/lpoKmrx0N9/SIngQ==}
+
+  '@prisma/dmmf@6.16.2':
+    resolution: {integrity: sha512-o9ztgdbj2KZXl6DL+oP56TTC0poTLPns9/MeU761b49E1IQ/fd0jwdov1bidlNOiwio8Nsou23xNrYE/db10aA==}
 
   '@prisma/engines-version@6.16.0-7.1c57fdcd7e44b29b9313256c76699e91c3ac3c43':
     resolution: {integrity: sha512-ThvlDaKIVrnrv97ujNFDYiQbeMQpLa0O86HFA2mNoip4mtFqM7U5GSz2ie1i2xByZtvPztJlNRgPsXGeM/kqAA==}
 
-  '@prisma/engines@6.16.1':
-    resolution: {integrity: sha512-EOnEM5HlosPudBqbI+jipmaW/vQEaF0bKBo4gVkGabasINHR6RpC6h44fKZEqx4GD8CvH+einD2+b49DQrwrAg==}
+  '@prisma/engines@6.16.2':
+    resolution: {integrity: sha512-7yf3AjfPUgsg/l7JSu1iEhsmZZ/YE00yURPjTikqm2z4btM0bCl2coFtTGfeSOWbQMmq45Jab+53yGUIAT1sjA==}
 
-  '@prisma/fetch-engine@6.16.1':
-    resolution: {integrity: sha512-fl/PKQ8da5YTayw86WD3O9OmKJEM43gD3vANy2hS5S1CnfW2oPXk+Q03+gUWqcKK306QqhjjIHRFuTZ31WaosQ==}
+  '@prisma/fetch-engine@6.16.2':
+    resolution: {integrity: sha512-wPnZ8DMRqpgzye758ZvfAMiNJRuYpz+rhgEBZi60ZqDIgOU2694oJxiuu3GKFeYeR/hXxso4/2oBC243t/whxQ==}
 
   '@prisma/generator-helper@6.16.1':
     resolution: {integrity: sha512-IaYP0SVAVCYiUUEsy3WdB7FVAJqPLrbgFfQVKrUgeeQZpp3obCBCHBaE80h4IPoSlohZ8oqFdOrxeC5FK/XEbQ==}
 
+  '@prisma/generator-helper@6.16.2':
+    resolution: {integrity: sha512-8tVnWM8ETJNrvI5CT9eKCW23+aPLNkidC+g9NJn7ghXm60Q7GGlLX5tmvn5dE8tXvs/FSX3MN7KNmNJpOr89Hw==}
+
   '@prisma/generator@6.16.1':
     resolution: {integrity: sha512-vyxuB1H1uyarkqhQsQm+zj2J5cV2wssLtvzRz92mYrJZRNiSRwjFbVntlXyZzxOui+/cXjmbVaaYoWe7ILucWw==}
 
-  '@prisma/get-platform@6.16.1':
-    resolution: {integrity: sha512-kUfg4vagBG7dnaGRcGd1c0ytQFcDj2SUABiuveIpL3bthFdTLI6PJeLEia6Q8Dgh+WhPdo0N2q0Fzjk63XTyaA==}
+  '@prisma/generator@6.16.2':
+    resolution: {integrity: sha512-7bwRmtMIgfe1rUynh1p9VlmYvEiidbRO6aBphPBS6YGEGSvNe8+QExbRpsqFlFBvIX76BhZCxuEj7ZwALMYRKQ==}
+
+  '@prisma/get-platform@6.16.2':
+    resolution: {integrity: sha512-U/P36Uke5wS7r1+omtAgJpEB94tlT4SdlgaeTc6HVTTT93pXj7zZ+B/cZnmnvjcNPfWddgoDx8RLjmQwqGDYyA==}
 
   '@radix-ui/number@1.1.1':
     resolution: {integrity: sha512-MkKCwxlXTgz6CFoJx3pCwn07GKp36+aZyu/u2Ln2VrA5DcdyCZkASEDBTd8x5whTQQL5CiYf4prXKLcgQdv29g==}
@@ -3326,11 +3256,11 @@ packages:
   '@types/node-fetch@2.6.13':
     resolution: {integrity: sha512-QGpRVpzSaUs30JBSGPjOg4Uveu384erbHBoT1zeONvyCfwQxIkUshLAOqN/k9EjGviPRmWTTe6aH2qySWKTVSw==}
 
-  '@types/node@18.19.124':
-    resolution: {integrity: sha512-hY4YWZFLs3ku6D2Gqo3RchTd9VRCcrjqp/I0mmohYeUVA5Y8eCXKJEasHxLAJVZRJuQogfd1GiJ9lgogBgKeuQ==}
+  '@types/node@18.19.125':
+    resolution: {integrity: sha512-4TWNu0IxTQcszliYdW2mxrVvhHeERUeDCUwVuvQFn9JCU02kxrUDs8v52yOazPo7wLHKgqEd2FKxlSN6m8Deqg==}
 
-  '@types/node@22.15.14':
-    resolution: {integrity: sha512-BL1eyu/XWsFGTtDWOYULQEs4KR0qdtYfCxYAUYRoB7JP7h9ETYLgQTww6kH8Sj2C0pFGgrpM0XKv6/kbIzYJ1g==}
+  '@types/node@24.5.0':
+    resolution: {integrity: sha512-y1dMvuvJspJiPSDZUQ+WMBvF7dpnEqN4x9DDC9ie5Fs/HUZJA3wFp7EhHoVaKX/iI0cRoECV8X2jL8zi0xrHCg==}
 
   '@types/nodemailer@6.4.19':
     resolution: {integrity: sha512-Fi8DwmuAduTk1/1MpkR9EwS0SsDvYXx5RxivAVII1InDCIxmhj/iQm3W8S3EVb/0arnblr6PK0FK4wYa7bwdLg==}
@@ -3492,10 +3422,6 @@ packages:
 
   bowser@2.12.1:
     resolution: {integrity: sha512-z4rE2Gxh7tvshQ4hluIT7XcFrgLIQaw9X3A+kTTRdovCz5PMukm/0QC/BKSYPj3omF5Qfypn9O/c5kgpmvYUCw==}
-
-  braces@3.0.3:
-    resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
-    engines: {node: '>=8'}
 
   browserslist@4.26.0:
     resolution: {integrity: sha512-P9go2WrP9FiPwLv3zqRD/Uoxo0RSHjzFCiQz7d4vbmwNqQFo9T9WCeP/Qn5EbcKQY6DBbkxEXNcpJOmncNrb7A==}
@@ -3750,11 +3676,6 @@ packages:
   destr@2.0.5:
     resolution: {integrity: sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==}
 
-  detect-libc@1.0.3:
-    resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
-    engines: {node: '>=0.10'}
-    hasBin: true
-
   detect-libc@2.0.4:
     resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
     engines: {node: '>=8'}
@@ -3785,16 +3706,20 @@ packages:
   domutils@3.2.2:
     resolution: {integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==}
 
-  dotenv-cli@8.0.0:
-    resolution: {integrity: sha512-aLqYbK7xKOiTMIRf1lDPbI+Y+Ip/wo5k3eyp6ePysVaSqbyxjyK3dK35BTxG+rmd7djf5q2UPs4noPNH+cj0Qw==}
+  dotenv-cli@10.0.0:
+    resolution: {integrity: sha512-lnOnttzfrzkRx2echxJHQRB6vOAMSCzzZg79IxpC00tU42wZPuZkQxNNrrwVAxaQZIIh001l4PxVlCrBxngBzA==}
     hasBin: true
 
-  dotenv-expand@10.0.0:
-    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
+  dotenv-expand@11.0.7:
+    resolution: {integrity: sha512-zIHwmZPRshsCdpMDyVsqGmgyP0yT8GAgXUnkdAoJisxvf33k7yO6OuoKmcTGuXPWSsm8Oh88nZicRLA9Y0rUeA==}
     engines: {node: '>=12'}
 
   dotenv@16.6.1:
     resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
+    engines: {node: '>=12'}
+
+  dotenv@17.2.2:
+    resolution: {integrity: sha512-Sf2LSQP+bOlhKWWyhFsn0UsfdK/kCWRv1iuA2gXAwt3dyNabr6QSj00I2V10pidqz69soatm9ZwZvpQMTIOd5Q==}
     engines: {node: '>=12'}
 
   drizzle-kit@0.31.4:
@@ -4087,10 +4012,6 @@ packages:
   fill-range@2.2.4:
     resolution: {integrity: sha512-cnrcCbj01+j2gTG921VZPnHbjmdAf8oQV/iGeV2kZxGSyfYjjTyY79ErsK1WJWMpw6DaApEX72binqJE+/d+5Q==}
     engines: {node: '>=0.10.0'}
-
-  fill-range@7.1.1:
-    resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
-    engines: {node: '>=8'}
 
   find-up@1.1.2:
     resolution: {integrity: sha512-jvElSjyuo4EMQGoTwo1uJU5pQMwTW5lS1x05zzfJuTIyLR3zwO27LYrxNg+dlvKpGOuGy/MzBdXh80g0ve5+HA==}
@@ -4423,10 +4344,6 @@ packages:
     resolution: {integrity: sha512-arnXMxT1hhoKo9k1LZdmlNyJdDDfy2v0fXjFlmok4+i8ul/6WlbVge9bhM74OpNPQPMGUToDtz+KXa1PneJxOA==}
     engines: {node: '>=0.10.0'}
 
-  is-extglob@2.1.1:
-    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
-    engines: {node: '>=0.10.0'}
-
   is-finite@1.1.0:
     resolution: {integrity: sha512-cdyMtqX/BOqqNBBiKlIVkytNHm49MtMlYyn1zxzvJKWmFMlGzm+ry5BBfYyeY9YmNKbRSo/o7OX9w9ale0wg3w==}
     engines: {node: '>=0.10.0'}
@@ -4434,10 +4351,6 @@ packages:
   is-fullwidth-code-point@3.0.0:
     resolution: {integrity: sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==}
     engines: {node: '>=8'}
-
-  is-glob@4.0.3:
-    resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==}
-    engines: {node: '>=0.10.0'}
 
   is-hexadecimal@2.0.1:
     resolution: {integrity: sha512-DgZQp241c8oO6cA1SbTEWiXeoxV42vlcJxgH+B3hi1AiqqKruZR3ZGF8In3fj4+/y/7rHvlOZLZtgJ/4ttYGZg==}
@@ -4453,10 +4366,6 @@ packages:
   is-number@4.0.0:
     resolution: {integrity: sha512-rSklcAIlf1OmFdyAqbnWTLVelsQ58uvZ66S/ZyawjWqIviTWCjg2PzVGw8WUA+nNuPTqb4wgA+NszrJ+08LlgQ==}
     engines: {node: '>=0.10.0'}
-
-  is-number@7.0.0:
-    resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==}
-    engines: {node: '>=0.12.0'}
 
   is-plain-obj@4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
@@ -4938,10 +4847,6 @@ packages:
   micromark@4.0.2:
     resolution: {integrity: sha512-zpe98Q6kvavpCr1NPVSCMebCKfD7CA2NqZ+rykeNhONIJBpc1tFKt9hucLGwha3jNTNI8lHpctWJWoimVF4PfA==}
 
-  micromatch@4.0.8:
-    resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
-    engines: {node: '>=8.6'}
-
   mime-db@1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
@@ -5064,9 +4969,6 @@ packages:
       react: '>= 16.0.0'
       react-dom: '>= 16.0.0'
 
-  node-addon-api@7.1.1:
-    resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
-
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
@@ -5139,8 +5041,8 @@ packages:
     engines: {node: ^14.16.0 || >=16.10.0}
     hasBin: true
 
-  nypm@0.6.1:
-    resolution: {integrity: sha512-hlacBiRiv1k9hZFiphPUkfSQ/ZfQzZDzC+8z0wL3lvDAOUu/2NnChkKuMoMjNur/9OpKuz2QsIeiPVN0xM5Q0w==}
+  nypm@0.6.2:
+    resolution: {integrity: sha512-7eM+hpOtrKrBDCh7Ypu2lJ9Z7PNZBdi/8AT3AX8xoCj43BBVHD0hPSTEvMtkMpfs8FCqBGhxB+uToIQimA111g==}
     engines: {node: ^14.16.0 || >=16.10.0}
     hasBin: true
 
@@ -5288,10 +5190,6 @@ packages:
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
-  picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
-    engines: {node: '>=8.6'}
-
   picomatch@4.0.3:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
@@ -5336,8 +5234,8 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.5.3:
-    resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==}
+  postcss@8.5.6:
+    resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
   postgres-array@2.0.0:
@@ -5361,8 +5259,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prisma-json-types-generator@3.6.0:
-    resolution: {integrity: sha512-IZ7WSLzmGU83/K0pXQpHtwdnwnL26rA3pHS/zWMyBbphdfSKrzX9L+EHneU61xpGI0Ciy6gfzEaqPHo14uscEQ==}
+  prisma-json-types-generator@3.6.1:
+    resolution: {integrity: sha512-QeEP17aeiuGmBCdIuPKwcQN456WJ2io0xancZzMzRvYCACPSwG5lnoYqO6X7zzzEZMpzZZ4UbV91/mBWbOaxTw==}
     engines: {node: '>=14.0'}
     hasBin: true
     peerDependencies:
@@ -5370,8 +5268,8 @@ packages:
       prisma: ^6.14
       typescript: ^5.9.2
 
-  prisma@6.16.1:
-    resolution: {integrity: sha512-MFkMU0eaDDKAT4R/By2IA9oQmwLTxokqv2wegAErr9Rf+oIe7W2sYpE/Uxq0H2DliIR7vnV63PkC1bEwUtl98w==}
+  prisma@6.16.2:
+    resolution: {integrity: sha512-aRvldGE5UUJTtVmFiH3WfNFNiqFlAtePUxcI0UEGlnXCX7DqhiMT5TRYwncHFeA/Reca5W6ToXXyCMTeFPdSXA==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -5903,9 +5801,6 @@ packages:
   tailwindcss@4.1.13:
     resolution: {integrity: sha512-i+zidfmTqtwquj4hMEwdjshYYgMbOrPzb9a0M3ZgNa0JMoZeFC6bxZvO8yr8ozS6ix2SDz0+mvryPeBs2TFE+w==}
 
-  tailwindcss@4.1.5:
-    resolution: {integrity: sha512-nYtSPfWGDiWgCkwQG/m+aX83XCwf62sBgg3bIlNiiOcggnS1x3uVRDAuyelBFL+vJdOPPCGElxv9DjHJjRHiVA==}
-
   tapable@2.2.3:
     resolution: {integrity: sha512-ZL6DDuAlRlLGghwcfmSn9sK3Hr6ArtyudlSAiCqQ6IfE+b+HHbydbYDIG15IfS5do+7XQQBdBiubF/cV2dnDzg==}
     engines: {node: '>=6'}
@@ -5940,10 +5835,6 @@ packages:
   to-object-path@0.3.0:
     resolution: {integrity: sha512-9mWHdnGRuh3onocaHzukyvCZhzvr6tiflAy/JRFXcJX0TjgfWA9pk9t8CMbzmBE4Jfw58pXbkngtBtqYxzNEyg==}
     engines: {node: '>=0.10.0'}
-
-  to-regex-range@5.0.1:
-    resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
-    engines: {node: '>=8.0'}
 
   toml@2.3.6:
     resolution: {integrity: sha512-gVweAectJU3ebq//Ferr2JUY4WKSDe5N+z0FvjDncLGyHmIDoxgY/2Ie4qfEIDm4IS7OA6Rmdm7pdEEdMcV/xQ==}
@@ -6019,8 +5910,8 @@ packages:
   typedarray@0.0.6:
     resolution: {integrity: sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==}
 
-  typescript@5.8.3:
-    resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -6033,8 +5924,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  undici-types@7.12.0:
+    resolution: {integrity: sha512-goOacqME2GYyOZZfb5Lgtu+1IDmAlAEu5xnD3+xTzS10hT0vzpf0SPjkXwAw9Jm+4n/mQGDP3LO8CPbYROeBfQ==}
 
   unified@11.0.5:
     resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
@@ -7145,52 +7036,53 @@ snapshots:
 
   '@better-auth/utils@0.2.4':
     dependencies:
-      typescript: 5.8.3
+      typescript: 5.9.2
       uncrypto: 0.1.3
 
   '@better-auth/utils@0.3.0': {}
 
   '@better-fetch/fetch@1.1.18': {}
 
-  '@biomejs/biome@1.9.4':
+  '@biomejs/biome@2.2.4':
     optionalDependencies:
-      '@biomejs/cli-darwin-arm64': 1.9.4
-      '@biomejs/cli-darwin-x64': 1.9.4
-      '@biomejs/cli-linux-arm64': 1.9.4
-      '@biomejs/cli-linux-arm64-musl': 1.9.4
-      '@biomejs/cli-linux-x64': 1.9.4
-      '@biomejs/cli-linux-x64-musl': 1.9.4
-      '@biomejs/cli-win32-arm64': 1.9.4
-      '@biomejs/cli-win32-x64': 1.9.4
+      '@biomejs/cli-darwin-arm64': 2.2.4
+      '@biomejs/cli-darwin-x64': 2.2.4
+      '@biomejs/cli-linux-arm64': 2.2.4
+      '@biomejs/cli-linux-arm64-musl': 2.2.4
+      '@biomejs/cli-linux-x64': 2.2.4
+      '@biomejs/cli-linux-x64-musl': 2.2.4
+      '@biomejs/cli-win32-arm64': 2.2.4
+      '@biomejs/cli-win32-x64': 2.2.4
 
-  '@biomejs/cli-darwin-arm64@1.9.4':
+  '@biomejs/cli-darwin-arm64@2.2.4':
     optional: true
 
-  '@biomejs/cli-darwin-x64@1.9.4':
+  '@biomejs/cli-darwin-x64@2.2.4':
     optional: true
 
-  '@biomejs/cli-linux-arm64-musl@1.9.4':
+  '@biomejs/cli-linux-arm64-musl@2.2.4':
     optional: true
 
-  '@biomejs/cli-linux-arm64@1.9.4':
+  '@biomejs/cli-linux-arm64@2.2.4':
     optional: true
 
-  '@biomejs/cli-linux-x64-musl@1.9.4':
+  '@biomejs/cli-linux-x64-musl@2.2.4':
     optional: true
 
-  '@biomejs/cli-linux-x64@1.9.4':
+  '@biomejs/cli-linux-x64@2.2.4':
     optional: true
 
-  '@biomejs/cli-win32-arm64@1.9.4':
+  '@biomejs/cli-win32-arm64@2.2.4':
     optional: true
 
-  '@biomejs/cli-win32-x64@1.9.4':
+  '@biomejs/cli-win32-x64@2.2.4':
     optional: true
 
-  '@content-collections/core@0.8.2(typescript@5.8.3)':
+  '@content-collections/core@0.11.1(typescript@5.9.2)':
     dependencies:
-      '@parcel/watcher': 2.5.1
+      '@standard-schema/spec': 1.0.0
       camelcase: 8.0.0
+      chokidar: 4.0.3
       esbuild: 0.25.9
       gray-matter: 4.0.3
       p-limit: 6.2.0
@@ -7198,17 +7090,17 @@ snapshots:
       pluralize: 8.0.0
       serialize-javascript: 6.0.2
       tinyglobby: 0.2.15
-      typescript: 5.8.3
+      typescript: 5.9.2
       yaml: 2.8.1
       zod: 3.25.76
 
-  '@content-collections/integrations@0.3.0(@content-collections/core@0.8.2(typescript@5.8.3))':
+  '@content-collections/integrations@0.3.0(@content-collections/core@0.11.1(typescript@5.9.2))':
     dependencies:
-      '@content-collections/core': 0.8.2(typescript@5.8.3)
+      '@content-collections/core': 0.11.1(typescript@5.9.2)
 
-  '@content-collections/mdx@0.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@content-collections/mdx@0.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@content-collections/core': 0.8.2(typescript@5.8.3)
+      '@content-collections/core': 0.11.1(typescript@5.9.2)
       esbuild: 0.25.9
       mdx-bundler: 10.1.1(esbuild@0.25.9)
       react: 19.1.0
@@ -7217,10 +7109,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@content-collections/next@0.2.7(@content-collections/core@0.8.2(typescript@5.8.3))(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
+  '@content-collections/next@0.2.7(@content-collections/core@0.11.1(typescript@5.9.2))(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
     dependencies:
-      '@content-collections/core': 0.8.2(typescript@5.8.3)
-      '@content-collections/integrations': 0.3.0(@content-collections/core@0.8.2(typescript@5.8.3))
+      '@content-collections/core': 0.11.1(typescript@5.9.2)
+      '@content-collections/integrations': 0.3.0(@content-collections/core@0.11.1(typescript@5.9.2))
       next: 15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
   '@drizzle-team/brocli@0.10.2': {}
@@ -7453,10 +7345,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@fumadocs/content-collections@1.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(@content-collections/mdx@0.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(fumadocs-core@15.7.11(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
+  '@fumadocs/content-collections@1.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(@content-collections/mdx@0.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(fumadocs-core@15.7.11(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0))':
     dependencies:
-      '@content-collections/core': 0.8.2(typescript@5.8.3)
-      '@content-collections/mdx': 0.2.2(@content-collections/core@0.8.2(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@content-collections/core': 0.11.1(typescript@5.9.2)
+      '@content-collections/mdx': 0.2.2(@content-collections/core@0.11.1(typescript@5.9.2))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       fumadocs-core: 15.7.11(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
   '@hapi/hoek@9.3.0': {}
@@ -7815,66 +7707,6 @@ snapshots:
     dependencies:
       '@noble/hashes': 1.8.0
 
-  '@parcel/watcher-android-arm64@2.5.1':
-    optional: true
-
-  '@parcel/watcher-darwin-arm64@2.5.1':
-    optional: true
-
-  '@parcel/watcher-darwin-x64@2.5.1':
-    optional: true
-
-  '@parcel/watcher-freebsd-x64@2.5.1':
-    optional: true
-
-  '@parcel/watcher-linux-arm-glibc@2.5.1':
-    optional: true
-
-  '@parcel/watcher-linux-arm-musl@2.5.1':
-    optional: true
-
-  '@parcel/watcher-linux-arm64-glibc@2.5.1':
-    optional: true
-
-  '@parcel/watcher-linux-arm64-musl@2.5.1':
-    optional: true
-
-  '@parcel/watcher-linux-x64-glibc@2.5.1':
-    optional: true
-
-  '@parcel/watcher-linux-x64-musl@2.5.1':
-    optional: true
-
-  '@parcel/watcher-win32-arm64@2.5.1':
-    optional: true
-
-  '@parcel/watcher-win32-ia32@2.5.1':
-    optional: true
-
-  '@parcel/watcher-win32-x64@2.5.1':
-    optional: true
-
-  '@parcel/watcher@2.5.1':
-    dependencies:
-      detect-libc: 1.0.3
-      is-glob: 4.0.3
-      micromatch: 4.0.8
-      node-addon-api: 7.1.1
-    optionalDependencies:
-      '@parcel/watcher-android-arm64': 2.5.1
-      '@parcel/watcher-darwin-arm64': 2.5.1
-      '@parcel/watcher-darwin-x64': 2.5.1
-      '@parcel/watcher-freebsd-x64': 2.5.1
-      '@parcel/watcher-linux-arm-glibc': 2.5.1
-      '@parcel/watcher-linux-arm-musl': 2.5.1
-      '@parcel/watcher-linux-arm64-glibc': 2.5.1
-      '@parcel/watcher-linux-arm64-musl': 2.5.1
-      '@parcel/watcher-linux-x64-glibc': 2.5.1
-      '@parcel/watcher-linux-x64-musl': 2.5.1
-      '@parcel/watcher-win32-arm64': 2.5.1
-      '@parcel/watcher-win32-ia32': 2.5.1
-      '@parcel/watcher-win32-x64': 2.5.1
-
   '@peculiar/asn1-android@2.5.0':
     dependencies:
       '@peculiar/asn1-schema': 2.5.0
@@ -7917,12 +7749,12 @@ snapshots:
       standardwebhooks: 1.0.0
       zod: 3.25.76
 
-  '@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3)':
+  '@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)':
     optionalDependencies:
-      prisma: 6.16.1(typescript@5.8.3)
-      typescript: 5.8.3
+      prisma: 6.16.2(typescript@5.9.2)
+      typescript: 5.9.2
 
-  '@prisma/config@6.16.1':
+  '@prisma/config@6.16.2':
     dependencies:
       c12: 3.1.0
       deepmerge-ts: 7.1.5
@@ -7933,22 +7765,26 @@ snapshots:
 
   '@prisma/debug@6.16.1': {}
 
+  '@prisma/debug@6.16.2': {}
+
   '@prisma/dmmf@6.16.1': {}
+
+  '@prisma/dmmf@6.16.2': {}
 
   '@prisma/engines-version@6.16.0-7.1c57fdcd7e44b29b9313256c76699e91c3ac3c43': {}
 
-  '@prisma/engines@6.16.1':
+  '@prisma/engines@6.16.2':
     dependencies:
-      '@prisma/debug': 6.16.1
+      '@prisma/debug': 6.16.2
       '@prisma/engines-version': 6.16.0-7.1c57fdcd7e44b29b9313256c76699e91c3ac3c43
-      '@prisma/fetch-engine': 6.16.1
-      '@prisma/get-platform': 6.16.1
+      '@prisma/fetch-engine': 6.16.2
+      '@prisma/get-platform': 6.16.2
 
-  '@prisma/fetch-engine@6.16.1':
+  '@prisma/fetch-engine@6.16.2':
     dependencies:
-      '@prisma/debug': 6.16.1
+      '@prisma/debug': 6.16.2
       '@prisma/engines-version': 6.16.0-7.1c57fdcd7e44b29b9313256c76699e91c3ac3c43
-      '@prisma/get-platform': 6.16.1
+      '@prisma/get-platform': 6.16.2
 
   '@prisma/generator-helper@6.16.1':
     dependencies:
@@ -7956,11 +7792,19 @@ snapshots:
       '@prisma/dmmf': 6.16.1
       '@prisma/generator': 6.16.1
 
+  '@prisma/generator-helper@6.16.2':
+    dependencies:
+      '@prisma/debug': 6.16.2
+      '@prisma/dmmf': 6.16.2
+      '@prisma/generator': 6.16.2
+
   '@prisma/generator@6.16.1': {}
 
-  '@prisma/get-platform@6.16.1':
+  '@prisma/generator@6.16.2': {}
+
+  '@prisma/get-platform@6.16.2':
     dependencies:
-      '@prisma/debug': 6.16.1
+      '@prisma/debug': 6.16.2
 
   '@radix-ui/number@1.1.1': {}
 
@@ -9328,7 +9172,7 @@ snapshots:
       '@alloc/quick-lru': 5.2.0
       '@tailwindcss/node': 4.1.13
       '@tailwindcss/oxide': 4.1.13
-      postcss: 8.5.3
+      postcss: 8.5.6
       tailwindcss: 4.1.13
 
   '@tanstack/query-core@5.87.4': {}
@@ -9353,7 +9197,7 @@ snapshots:
 
   '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 24.5.0
 
   '@types/debug@4.1.12':
     dependencies:
@@ -9385,21 +9229,21 @@ snapshots:
 
   '@types/node-fetch@2.6.13':
     dependencies:
-      '@types/node': 22.15.14
+      '@types/node': 24.5.0
       form-data: 4.0.4
 
-  '@types/node@18.19.124':
+  '@types/node@18.19.125':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.15.14':
+  '@types/node@24.5.0':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.12.0
 
   '@types/nodemailer@6.4.19':
     dependencies:
       '@aws-sdk/client-ses': 3.888.0
-      '@types/node': 22.15.14
+      '@types/node': 24.5.0
     transitivePeerDependencies:
       - aws-crt
 
@@ -9507,14 +9351,14 @@ snapshots:
     dependencies:
       gulp-header: 1.8.12
 
-  autoprefixer@10.4.21(postcss@8.5.3):
+  autoprefixer@10.4.21(postcss@8.5.6):
     dependencies:
       browserslist: 4.26.0
       caniuse-lite: 1.0.30001741
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
-      postcss: 8.5.3
+      postcss: 8.5.6
       postcss-value-parser: 4.2.0
 
   axios@1.12.1(debug@4.4.1):
@@ -9559,10 +9403,6 @@ snapshots:
   boring-avatars@1.11.2: {}
 
   bowser@2.12.1: {}
-
-  braces@3.0.3:
-    dependencies:
-      fill-range: 7.1.1
 
   browserslist@4.26.0:
     dependencies:
@@ -9766,8 +9606,6 @@ snapshots:
 
   destr@2.0.5: {}
 
-  detect-libc@1.0.3: {}
-
   detect-libc@2.0.4: {}
 
   detect-node-es@1.1.0: {}
@@ -9798,16 +9636,20 @@ snapshots:
       domelementtype: 2.3.0
       domhandler: 5.0.3
 
-  dotenv-cli@8.0.0:
+  dotenv-cli@10.0.0:
     dependencies:
       cross-spawn: 7.0.6
-      dotenv: 16.6.1
-      dotenv-expand: 10.0.0
+      dotenv: 17.2.2
+      dotenv-expand: 11.0.7
       minimist: 1.2.8
 
-  dotenv-expand@10.0.0: {}
+  dotenv-expand@11.0.7:
+    dependencies:
+      dotenv: 16.6.1
 
   dotenv@16.6.1: {}
+
+  dotenv@17.2.2: {}
 
   drizzle-kit@0.31.4:
     dependencies:
@@ -9818,17 +9660,17 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.1(typescript@5.8.3)):
+  drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.2(typescript@5.9.2)):
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
-      '@prisma/client': 6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3)
+      '@prisma/client': 6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
       kysely: 0.27.6
       pg: 8.16.3
-      prisma: 6.16.1(typescript@5.8.3)
+      prisma: 6.16.2(typescript@5.9.2)
 
-  drizzle-zod@0.7.1(drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.1(typescript@5.8.3)))(zod@3.25.76):
+  drizzle-zod@0.7.1(drizzle-orm@0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.2(typescript@5.9.2)))(zod@3.25.76):
     dependencies:
-      drizzle-orm: 0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.1(typescript@5.8.3))
+      drizzle-orm: 0.43.1(@opentelemetry/api@1.9.0)(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(kysely@0.27.6)(pg@8.16.3)(prisma@6.16.2(typescript@5.9.2))
       zod: 3.25.76
 
   dunder-proto@1.0.1:
@@ -9865,7 +9707,7 @@ snapshots:
   engine.io@6.6.4:
     dependencies:
       '@types/cors': 2.8.19
-      '@types/node': 22.15.14
+      '@types/node': 24.5.0
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
@@ -10096,10 +9938,6 @@ snapshots:
       repeat-element: 1.1.4
       repeat-string: 1.6.1
 
-  fill-range@7.1.1:
-    dependencies:
-      to-regex-range: 5.0.1
-
   find-up@1.1.2:
     dependencies:
       path-exists: 2.1.0
@@ -10173,7 +10011,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fumadocs-ui@15.7.11(@types/react-dom@19.0.0)(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.5):
+  fumadocs-ui@15.7.11(@types/react-dom@19.0.0)(@types/react@19.0.0)(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tailwindcss@4.1.13):
     dependencies:
       '@radix-ui/react-accordion': 1.2.12(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@radix-ui/react-collapsible': 1.1.12(@types/react-dom@19.0.0)(@types/react@19.0.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -10198,7 +10036,7 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.0.0
       next: 15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      tailwindcss: 4.1.5
+      tailwindcss: 4.1.13
     transitivePeerDependencies:
       - '@mixedbread/sdk'
       - '@oramacloud/client'
@@ -10251,7 +10089,7 @@ snapshots:
       consola: 3.4.2
       defu: 6.1.4
       node-fetch-native: 1.6.7
-      nypm: 0.6.1
+      nypm: 0.6.2
       pathe: 2.0.3
 
   github-slugger@2.0.0: {}
@@ -10454,15 +10292,9 @@ snapshots:
     dependencies:
       is-plain-object: 2.0.4
 
-  is-extglob@2.1.1: {}
-
   is-finite@1.1.0: {}
 
   is-fullwidth-code-point@3.0.0: {}
-
-  is-glob@4.0.3:
-    dependencies:
-      is-extglob: 2.1.1
 
   is-hexadecimal@2.0.1: {}
 
@@ -10473,8 +10305,6 @@ snapshots:
       kind-of: 3.2.2
 
   is-number@4.0.0: {}
-
-  is-number@7.0.0: {}
 
   is-plain-obj@4.1.0: {}
 
@@ -11207,11 +11037,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  micromatch@4.0.8:
-    dependencies:
-      braces: 3.0.3
-      picomatch: 2.3.1
-
   mime-db@1.52.0: {}
 
   mime-db@1.54.0: {}
@@ -11261,7 +11086,7 @@ snapshots:
 
   negotiator@1.0.0: {}
 
-  next-intl@4.1.0(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(typescript@5.8.3):
+  next-intl@4.1.0(next@15.3.1(@opentelemetry/api@1.9.0)(@playwright/test@1.55.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)(typescript@5.9.2):
     dependencies:
       '@formatjs/intl-localematcher': 0.5.10
       negotiator: 1.0.0
@@ -11269,7 +11094,7 @@ snapshots:
       react: 19.1.0
       use-intl: 4.3.8(react@19.1.0)
     optionalDependencies:
-      typescript: 5.8.3
+      typescript: 5.9.2
 
   next-themes@0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
@@ -11310,8 +11135,6 @@ snapshots:
       prop-types: 15.8.1
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
-
-  node-addon-api@7.1.1: {}
 
   node-domexception@1.0.0: {}
 
@@ -11361,7 +11184,7 @@ snapshots:
       pkg-types: 2.3.0
       tinyexec: 0.3.2
 
-  nypm@0.6.1:
+  nypm@0.6.2:
     dependencies:
       citty: 0.1.6
       consola: 3.4.2
@@ -11399,7 +11222,7 @@ snapshots:
 
   openai@4.104.0(encoding@0.1.13)(zod@3.25.76):
     dependencies:
-      '@types/node': 18.19.124
+      '@types/node': 18.19.125
       '@types/node-fetch': 2.6.13
       abort-controller: 3.0.0
       agentkeepalive: 4.6.0
@@ -11527,8 +11350,6 @@ snapshots:
 
   picocolors@1.1.1: {}
 
-  picomatch@2.3.1: {}
-
   picomatch@4.0.3: {}
 
   pify@2.3.0: {}
@@ -11568,7 +11389,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postcss@8.5.3:
+  postcss@8.5.6:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
@@ -11586,21 +11407,21 @@ snapshots:
 
   prettier@3.5.3: {}
 
-  prisma-json-types-generator@3.6.0(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3):
+  prisma-json-types-generator@3.6.1(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2):
     dependencies:
-      '@prisma/client': 6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3)
-      '@prisma/generator-helper': 6.16.1
-      prisma: 6.16.1(typescript@5.8.3)
+      '@prisma/client': 6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
+      '@prisma/generator-helper': 6.16.2
+      prisma: 6.16.2(typescript@5.9.2)
       semver: 7.7.2
       tslib: 2.8.1
-      typescript: 5.8.3
+      typescript: 5.9.2
 
-  prisma@6.16.1(typescript@5.8.3):
+  prisma@6.16.2(typescript@5.9.2):
     dependencies:
-      '@prisma/config': 6.16.1
-      '@prisma/engines': 6.16.1
+      '@prisma/config': 6.16.2
+      '@prisma/engines': 6.16.2
     optionalDependencies:
-      typescript: 5.8.3
+      typescript: 5.9.2
     transitivePeerDependencies:
       - magicast
 
@@ -12206,11 +12027,11 @@ snapshots:
     dependencies:
       get-stdin: 4.0.1
 
-  stripe@18.5.0(@types/node@22.15.14):
+  stripe@18.5.0(@types/node@24.5.0):
     dependencies:
       qs: 6.14.0
     optionalDependencies:
-      '@types/node': 22.15.14
+      '@types/node': 24.5.0
 
   strnum@1.1.2: {}
 
@@ -12240,8 +12061,6 @@ snapshots:
   tailwind-merge@3.3.1: {}
 
   tailwindcss@4.1.13: {}
-
-  tailwindcss@4.1.5: {}
 
   tapable@2.2.3: {}
 
@@ -12277,10 +12096,6 @@ snapshots:
   to-object-path@0.3.0:
     dependencies:
       kind-of: 3.2.2
-
-  to-regex-range@5.0.1:
-    dependencies:
-      is-number: 7.0.0
 
   toml@2.3.6: {}
 
@@ -12342,7 +12157,7 @@ snapshots:
 
   typedarray@0.0.6: {}
 
-  typescript@5.8.3: {}
+  typescript@5.9.2: {}
 
   ufo@1.6.1: {}
 
@@ -12350,7 +12165,7 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  undici-types@6.21.0: {}
+  undici-types@7.12.0: {}
 
   unified@11.0.5:
     dependencies:
@@ -12513,13 +12328,13 @@ snapshots:
 
   yoctocolors@2.1.2: {}
 
-  zod-prisma-types@3.2.4(@prisma/client@6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3))(prisma@6.16.1(typescript@5.8.3)):
+  zod-prisma-types@3.2.4(@prisma/client@6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2))(prisma@6.16.2(typescript@5.9.2)):
     dependencies:
-      '@prisma/client': 6.16.1(prisma@6.16.1(typescript@5.8.3))(typescript@5.8.3)
+      '@prisma/client': 6.16.1(prisma@6.16.2(typescript@5.9.2))(typescript@5.9.2)
       '@prisma/generator-helper': 6.16.1
       code-block-writer: 12.0.0
       lodash: 4.17.21
-      prisma: 6.16.1(typescript@5.8.3)
+      prisma: 6.16.2(typescript@5.9.2)
       zod: 3.25.76
 
   zod-to-json-schema@3.24.6(zod@3.25.76):
